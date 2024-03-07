@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  background-color: #000;
+}
+#quienes-somos {
+  background-color: #000;
+  color: #fff;
+}
+
+#destacados {
+  background-color: #000;
+  color: #fff;
+}
+
+#contacto {
+  background-color: #000;
+  color: #fff;
+}
+
+#footer {
+  background-color: #000;
+  color: #fff;
+}
+/* Estilos para el navbar */
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+#navbar ul li {
+  margin-right: 20px;
+}
+
+#navbarNav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#navbarNav a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+#nav #logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+#nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Estilos para el carousel */
+
+#carousel {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+#carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(0.5);
+}
+
+/* Estilos para Quienes Somos */
+
+#quienes-somos #titulo {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#descripcion,
+#descripcion1,
+#descripcion2 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#quienes-somos {
+  display: flex;
+  padding: 50px;
+  text-align: center;
+}
+
+#descripcion,
+#descripcion1,
+#descripcion2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* ocultar quienes somos en pantallas menores a 768px */
+@media (max-width: 768px) {
+  #quienes-somos {
+    display: none;
+  }
+}
+
+/* Estilos para Destacados */
+
+#destacados {
+  display: flex;
+  padding: 50px;
+  text-align: center;
+}
+
+#destacados .card {
+  margin: 10px;
+}
+
+/* Estilos para Contacto */
+
+#contacto {
+  display: flex;
+  padding: 50px;
+}
+
+/* Estilos para Footer */
+
+#footer #redes {
+  display: flex;
+  font-size: 30px;
+  justify-content: space-around;
+}
+
+#footer #redes a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer #redes a:hover {
+  color: #000;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#footer-logo {
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer-logo:hover {
+  color: #000;
+  background-color: #fff;
+  border-radius: 5px;
+}

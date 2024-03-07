@@ -15,3 +15,18 @@ $("#imagen1").click(function () {
     opacity: "toggle",
   });
 });
+
+$("#imagen2").hover(function () {
+  $("#card-text2").animate({
+    height: "toggle",
+    opacity: "toggle",
+  });
+});
+
+$("#destacados-titulo").hover(function () {
+  $("#destacados-titulo").animate({
+    fontSize: "50px",
+    opacity: "1",
+  });
+  $("#destacados-titulo").css("color", "blue");
+});

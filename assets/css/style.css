@@ -8,7 +8,10 @@
   background-color: #000;
   font-family: "Roboto", sans-serif;
 }
-#quienes-somos, #destacados, #contacto, #footer {
+#quienes-somos,
+#destacados,
+#contacto,
+#footer {
   background-color: #000;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -22,6 +25,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  scroll-behavior: smooth;
 }
 
 #navbar ul {
